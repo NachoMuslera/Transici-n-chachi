@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+#NanoCaja{
+    background-color: blueviolet;
+    text-align: center;
+}
+#NanoCaja:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+a {
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-start;
+    background-color: rgb(125, 92, 83);
+    padding: 20px 40px;
+    text-align: center;
+    transition: all 1s ease-in-out 0.25s;
+    text-decoration: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+}
+a:hover{
+    background-color: white;
+}
